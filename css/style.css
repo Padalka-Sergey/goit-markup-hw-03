@@ -80,6 +80,11 @@ img {
     overflow: hidden; 
 }
 
+ .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+ }
+
 /* LOGO */
 .header .logo,
 .footer .logo { 
@@ -114,15 +119,15 @@ img {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    /* padding-top: 94px;
+    padding-bottom: 94px; */
     /* outline: 2px solid tomato; */
     
 }
 
 .header .container {
     align-items: center;
-    padding: 0;
+    /* padding: 0; */
 }
 
 .header .nav {
@@ -236,7 +241,7 @@ img {
 
 /* Skills */
 
-.skills .container {
+.skills.section {
     padding-bottom: 0;
 }
 
@@ -312,7 +317,7 @@ img {
 .team .list {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     margin-right: calc(-1 *var(--cards-gap));
     margin-bottom: calc(-1 *var(--cards-gap));
 }
@@ -362,13 +367,13 @@ img {
 /* Footer */
 
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--bg-hero-footer);
 }
 
 .footer .container {
     display: block;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .footer-logo,
@@ -424,18 +429,18 @@ img {
  /* Filter */
 
 
- .projects .container {
+.projects .container {
     display: block;
- }
+}
 
- .projects-filter {
+.projects-filter {
     display: flex;
     justify-content: center;
- }
+}
 
 .projects .item-btn + .item-btn {
     margin-left: 8px;
- } 
+} 
 
 .button-portfolio {
     margin: 0;
@@ -466,7 +471,7 @@ img {
  .projects .list-cards {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
+    margin-top: 50px;
     margin-right: calc(-1 *var(--cards-gap));
     margin-bottom: calc(-1 *var(--cards-gap));
     
